@@ -12,6 +12,18 @@ Summary: Extensible memoizing collections and decorators
 This module provides various memoizing collections and decorators, including variants of the Python 3 Standard Library @lru_cache function decorator.
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/cachetools-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/cachetools-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/cachetools-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/cachetools-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/cachetools-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/cachetools-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cachetools/badges/version.svg)](https://anaconda.org/conda-forge/cachetools)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cachetools/badges/downloads.svg)](https://anaconda.org/conda-forge/cachetools)
+
 Installing cachetools
 =====================
 
@@ -32,7 +44,6 @@ It is possible to list all of the versions of `cachetools` available on your pla
 ```
 conda search cachetools --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -68,18 +79,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/cachetools-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/cachetools-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/cachetools-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/cachetools-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/cachetools-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/cachetools-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cachetools/badges/version.svg)](https://anaconda.org/conda-forge/cachetools)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cachetools/badges/downloads.svg)](https://anaconda.org/conda-forge/cachetools)
 
 
 Updating cachetools-feedstock
