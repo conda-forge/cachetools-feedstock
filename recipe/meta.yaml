@@ -1,6 +1,6 @@
 {% set name = "cachetools" %}
-{% set version = "2.0.0" %}
-{% set sha256 = "715a7202240dc20dbe83abdb2d804d543e2d4f07af146f53c82166bd75f3a628" %}
+{% set version = "2.0.1" %}
+{% set sha256 = "ede01f2d3cbd6ddc9e35e16c2b0ce011d8bb70ce0dbaf282f5b4df24b213bc5d" %}
 
 package:
   name: {{ name|lower }}
@@ -12,6 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
+  noarch: python
   number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
