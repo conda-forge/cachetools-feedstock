@@ -15,9 +15,7 @@ This module provides various memoizing collections and decorators, including var
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/cachetools-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/cachetools-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/cachetools-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/cachetools-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/cachetools-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/cachetools-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/cachetools-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/cachetools-feedstock)
 
 Current release info
 ====================
