@@ -15,12 +15,15 @@ This module provides various memoizing collections and decorators, including var
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/cachetools-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/cachetools-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/cachetools-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/cachetools-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cachetools/badges/version.svg)](https://anaconda.org/conda-forge/cachetools)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/cachetools/badges/downloads.svg)](https://anaconda.org/conda-forge/cachetools)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-cachetools-green.svg)](https://anaconda.org/conda-forge/cachetools) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/cachetools.svg)](https://anaconda.org/conda-forge/cachetools) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/cachetools.svg)](https://anaconda.org/conda-forge/cachetools) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/cachetools.svg)](https://anaconda.org/conda-forge/cachetools) |
 
 Installing cachetools
 =====================
@@ -65,6 +68,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
