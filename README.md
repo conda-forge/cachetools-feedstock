@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About cachetools
 ================
 
@@ -19,8 +15,17 @@ This module provides various memoizing collections and decorators, including var
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/cachetools-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/cachetools-feedstock)
+
+<table><tr>
+    
+    <td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3775&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/cachetools-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
@@ -114,5 +119,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@MaartenBreddels](https://github.com/MaartenBreddels/)
+* [@maartenbreddels](https://github.com/maartenbreddels/)
 
