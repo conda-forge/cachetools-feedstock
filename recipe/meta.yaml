@@ -1,31 +1,34 @@
 {% set name = "cachetools" %}
-{% set version = "3.1.1" %}
-{% set sha256 = "8ea2d3ce97850f31e4a08b0e2b5e6c34997d7216a9d2c98e0f3978630d4da69a" %}
+{% set version = "4.1.0" %}
+
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  sha256: 1d057645db16ca7fe1f3bd953558897603d6f0b9c51ed9d11eb4d071ec4e2aab
 
 build:
-  noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  noarch: python
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
-  build:
-    - python
+  host:
     - pip
+    - python >=3.5,<3.6
   run:
-    - python
+    - python >=3.5,<3.6
 
 test:
   imports:
     - cachetools
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/tkem/cachetools
@@ -42,3 +45,4 @@ about:
 extra:
   recipe-maintainers:
     - maartenbreddels
+    - marcelotrevisani
