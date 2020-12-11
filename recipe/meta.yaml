@@ -1,5 +1,5 @@
 {% set name = "cachetools" %}
-{% set version = "4.1.1" %}
+{% set version = "4.2.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: bbaa39c3dede00175df2dc2b03d0cf18dd2d32a7de7beb68072d13043c9edb20
+  sha256: 3796e1de094f0eaca982441c92ce96c68c89cced4cd97721ab297ea4b16db90e
 
 build:
   number: 0
