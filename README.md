@@ -5,9 +5,13 @@ Home: https://github.com/tkem/cachetools
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cachetools-feedstock/blob/master/LICENSE.txt)
 
 Summary: Extensible memoizing collections and decorators
+
+Development: https://github.com/tkem/cachetools
+
+Documentation: http://pythonhosted.org/cachetools/
 
 This module provides various memoizing collections and decorators, including variants of the Python 3 Standard Library @lru_cache function decorator.
 
