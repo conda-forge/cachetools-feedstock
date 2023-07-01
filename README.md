@@ -152,4 +152,5 @@ Feedstock Maintainers
 
 * [@maartenbreddels](https://github.com/maartenbreddels/)
 * [@marcelotrevisani](https://github.com/marcelotrevisani/)
+* [@rxm7706](https://github.com/rxm7706/)
 
