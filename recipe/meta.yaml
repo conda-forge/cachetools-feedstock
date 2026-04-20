@@ -1,5 +1,5 @@
 {% set name = "cachetools" %}
-{% set version = "7.0.5" %}
+{% set version = "7.0.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/cachetools-{{ version }}.tar.gz
-  sha256: 0cd042c24377200c1dcd225f8b7b12b0ca53cc2c961b43757e774ebe190fd990
+  sha256: e5d524d36d65703a87243a26ff08ad84f73352adbeafb1cde81e207b456aaf24
 
 build:
   noarch: python
