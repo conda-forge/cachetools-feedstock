@@ -1,5 +1,5 @@
 {% set name = "cachetools" %}
-{% set version = "7.1.8" %}
+{% set version = "7.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/cachetools-{{ version }}.tar.gz
-  sha256: 1221d547a0b24b7f26fa891d40d488b5258beab9aebd8ed68c729be3af849c43
+  sha256: bcac1a1b8da6909994a2957238a57b8140dab7c5c5c69a43669654fe87a33c1d
 
 build:
   noarch: python
